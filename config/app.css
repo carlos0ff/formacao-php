@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+sans|Source+Code+Pro');
+
+:root{
+    --color-background: #F9F9F9F9;
+
+    --color-line: #45da41;
+
+    --color-success: #000;
+    --color-danger: #000;
+    --color-warnig: #000;
+
+    --color-link: #12150;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+html, body{
+    font-family: "Source code", Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+a{
+    color: var(--color-link);
+}
